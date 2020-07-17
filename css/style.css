@@ -101,7 +101,10 @@ body {
 
 .wrap {
   background: url("../img/header.jpg") no-repeat center/cover;
+<<<<<<< HEAD
   /*    height: 100vh; */
+=======
+>>>>>>> ed6b778fd1667c37c2047f08e9106828809c71fe
 }
 
 .inner {
