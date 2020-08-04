@@ -100,13 +100,14 @@ body {
 }
 
 .wrap {
-  background: url("../img/header.jpg") no-repeat center/cover;
-  /*    height: 100vh; */
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .inner {
   background: rgba(139, 114, 76, 0.521);
-  /*    height: 100vh; */
 }
 
 .container {
