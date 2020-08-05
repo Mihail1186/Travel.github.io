@@ -205,12 +205,16 @@ body {
 
 /* block 2------------------------------- */
 
+.inner__bottom{
+   padding-bottom: 20px;
+ }
+
 .inner__column {
    max-width: 493px;
 }
 .inner__column-title {
    h1 {
-      color: #d03958;
+      color: #000000;
       font-size: 90px;
       font-weight: 700;
       line-height: 80px;
@@ -232,6 +236,7 @@ body {
 
 .inner__column-text {
    margin-top: 47px;
+   margin-bottom: 20px;
    @media (max-width: 920px) {
       margin-top: 30px;
    }
@@ -266,6 +271,7 @@ body {
 /* -----------block-3-------------- */
 
 .inner__form {
+   align-self:flex-start;
    margin-top: -50px;
    margin-bottom: 30px;
    max-width: 350px;
@@ -433,7 +439,7 @@ body {
       line-height: 28px;
       letter-spacing: -0.4px;
       display: inline-block;
-      margin-top: 50px;
+      margin-top: 40px;
       @media (max-width: 700px) {
          font-size: 16px;
          line-height: 20px;
